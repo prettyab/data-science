@@ -68,12 +68,40 @@
 #     print(i,end='')
 
 # 9.
-lower = int(input("enter lower limit >1 :"))
-upper = int(input("enter upper limit :"))
-for i in range(lower, upper+1):
-    if i >1:
-        for num in range(2,i):
-            if i%num==0:
-             break
-        else:
-            print(i)
+# lower = int(input("enter lower limit >1 :"))
+# upper = int(input("enter upper limit :"))
+# for i in range(lower, upper+1):
+#     if i >1:
+#         for num in range(2,i):
+#             if i%num==0:
+#              break
+#         else:
+            # print(i)
+
+# 10.
+# year = int(input("enrter any year that is to be checked for lear year: "))
+# if (year%400 == 0):
+#     if (year%4)==0:
+#         if(year%100)==0:
+#             print("given year is leap year")
+# else:
+#             print(" not a leap year")
+
+# 11.
+# l_1=[1,2,3]
+# l_2=['a','b','c']
+# list=l_1+l_2
+# print(list)
+
+# 12.
+# list=[12,56,13,56,64,89,12,56,99,100]
+# dict={}
+# for x in list:
+#     if x in dict:
+#         dict[x]+=1
+#     else:
+#         dict[x]=1
+# print(dict)   
+
+# 13.
+     

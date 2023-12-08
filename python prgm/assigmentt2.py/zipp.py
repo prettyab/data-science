@@ -1,36 +1,9 @@
-# argument_function
-# double=lambda x:x*2
-# print(double(5))
+import zipfile
+with zipfile.ZipFile('C:/Users/DELL/Desktop/python prgm/assigmentt2.py/example.zip', 'w') as zipf:
+    zipf.write('file1.txt')
+    zipf.write('file2.txt')
 
-
-
-
-
-
-# zip
-
-#mytuple = ("apple", "banana", "cherry")
-# myit = iter(mytuple)
-
-# print(next(myit))
-# print(next(myit))
-# print(next(myit))
-
-
-# map
-data=[1,2,3,4,5]
-# result1=map(lambda x:x*2,data)
-# print(result1)
-# print(list(result1))
-
-# filter
-r2=filter(lambda x:x%2==0,data)
-print(r2)
-print(list(r2))
-
-
-
-# data = [1, 2, 3, 4, 5]
-# from functools import reduce
-# result3 = reduce(lambda x, y: x * y, data) 
-# print(result3)
+import zipfile
+with zipfile.ZipFile('C:/Users/DELL/Desktop/python prgm/assigmentt2.py/example.zip','r') as zipfile:
+    file_list=zipfile.namelist()
+    print("contents of the zipfile",file_list)

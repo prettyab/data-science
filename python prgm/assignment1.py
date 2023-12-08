@@ -46,14 +46,6 @@
 #    print(Fib(i),end = " ")
 
 
-# # 6.
-n = 6
-for i in range (1, n+1):
-    for j in range (1, i+1):
-        print("*", end="")
-    print()
-
-
 # 7.
 # lower = int(input("enter lower limit (>1):"))
 # upper = int(input("enter upper limit :"))
@@ -234,7 +226,7 @@ for i in range (1, n+1):
 #     print('')
 
 
-# 21.
+# 22.
 
 # num_1=7
 # num_2=6

@@ -188,10 +188,10 @@
 # r3=reduce(lambda x,y:x*y,data)
 # print(r3)
 
-# 22.
-def filter_mark(marks):
-     filter_mark={subject: mark for subject, mark in marks.items() if mark >50}
-     return filter_mark     
-marks={'math':60,'chemistry':46,'hindi':30,'physics':70,'english':40}
-filter_mark=filter_mark(marks)
-print(filter_mark)
+# # 22.
+# def filter_mark(marks):
+#      filter_mark={subject: mark for subject, mark in marks.items() if mark >50}
+#      return filter_mark     
+# marks={'math':60,'chemistry':46,'hindi':30,'physics':70,'english':40}
+# filter_mark=filter_mark(marks)
+# print(filter_mark)
